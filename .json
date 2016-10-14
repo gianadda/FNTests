@@ -1,0 +1,121 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://app.fieldnimble.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "md-input-container.md-block.flex-40"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_0"
+      },
+      "text": "gianadda@fieldnimble.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_1"
+      },
+      "text": "fieldnimbledemo"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "button.pull-right.ng-binding"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div/home/div/navigation/div/ul/li[4]/div[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div/home/div/navigation/div/ul/li[5]/div[2]/div[1]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div/home/div/navigation/div/ul/li[6]/div[2]/div[1]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div/home/div/navigation/div/ul/li[7]/div[2]/div[1]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div/home/div/navigation/div/ul/li[8]/div[2]/div[1]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "select_48"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "select_option_50"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/home/div/navigation/div/ul/li[9]/div[2]/div[1]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Maintenance"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "page-header-alternative"
+      }
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "id",
+        "value": "page-header-alternative"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
